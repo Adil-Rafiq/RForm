@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #f3f3f3
+}
+
+
+/* background */
+.bg{
+    background: url(/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+}
+
+.layer{
+    background-color: rgba(54, 23, 126, 0.589);
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+}
+
+.main{
+    position: relative;
+    color: aliceblue;
+    margin: 0 auto;
+}
+
+
+
+/* title */
+.heading{
+    text-align: center;
+    padding-top: 4.05rem;
+}
+
+h1, p{
+    text-shadow: 1px 1px 1px rgba(5, 4, 4, 0.361);
+}
+h1{
+    margin: 0 0.5rem;
+    padding: 0;
+    font-size: 2em;
+    font-weight: 600;
+}
+p{
+    padding-bottom: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.125rem;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
+
+
+
+/* form */
+form{
+    background-color: rgba(27, 27, 50, 0.8);
+    width: 55vw;
+    height: 100%;
+    margin: 10px auto;
+    padding: 23px 0;
+    border-radius: 5px;
+    font-size: 1.125rem;
+}
+.center {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+ }
+
+fieldset{
+    border: none;
+    padding: 18px 0 25px 10px;
+}
+
+input:not(textarea){
+    display: block;
+    width: 100%;
+    padding: 11px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input:focus{
+    border: none;
+    background-color: #0e486567;
+    color: white
+}
+textarea{
+    width: 100%;
+    min-height: 80px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input[type="radio"] , input[type="checkbox"]{
+    display: inline;
+    width: unset;
+}
+label{
+    display: block;
+    padding-bottom: 26px;
+}
+
+.small-text{
+    font-size: 10px;
+    font-style: italic;
+    display: inline;
+}
+
+/* submit button */
+input[type="button"]{
+    background-color: #04AA6D;
+    color: #f3f3f3;
+    border: none;
+    padding: 16px 32px;
+    width: 97.5%;
+    border-radius: 2px;
+    margin-left: 12px;
+    font-size: large;
+    box-shadow: 2px 2px 2px rgb(112, 144, 161);
+}
+
+.button:hover {
+    background: #328ebc95;
+    color: rgb(251, 249, 249);
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px rgba(238, 238, 238, 0.801);
+    text-shadow: none;
+    cursor:pointer;
+}
